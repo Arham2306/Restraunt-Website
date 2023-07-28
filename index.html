@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restraunt Website</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="./mobile-responsive.css" type="text/css">
+</head>
+
+<body>
+    <!-- Navigation Starts Here -->
+    <nav>
+        <div class="navbar ">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="hamburger-icon">
+                <i class="bi bi-list"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Ends Here -->
+
+    <!-- Main Content Starts Here -->
+
+    <div class="container">
+        <div class="content-1">
+            <div class="image1">
+                <img src="./images/img1.png" alt="img1">
+            </div>
+            <div class="main-content">
+                <span class="discount">50% OFF All Products</span>
+                <h1>Enjoy Your Delicious Food</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus repellendus illo modi, omnis
+                    necessitatibus aut dolor voluptas, nihil in doloribus consectetur culpa cum exercitationem molestias
+                    fugit labore, harum debitis eius.</p>
+                <button class="btn">Explore Now</button>
+            </div>
+        </div>
+
+        <!-- Services Section -->
+
+        <div class="services">
+            <div class="voucher tab">
+                <div class="img2">
+                    <svg width="80" height="83" viewBox="0 0 80 83" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="80" height="83" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_77_141"
+                                    transform="matrix(0.0216146 0 0 0.0208333 -0.01875 0)" />
+                            </pattern>
+                            <image id="image0_77_141" width="48" height="48"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg>
+                </div>
+                <div class="headpara">
+                    <h3>Discount Voucher</h3>
+                    <p>Many Discounts Opportunities</p>
+                </div>
+            </div>
+            <div class="healthy-food tab">
+                <div class="img2">
+                    <svg width="80" height="83" viewBox="0 0 80 83" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="80" height="83" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_77_141"
+                                    transform="matrix(0.0216146 0 0 0.0208333 -0.01875 0)" />
+                            </pattern>
+                            <image id="image0_77_141" width="48" height="48"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg>
+                </div>
+                <div class="headpara">
+                    <h3>Fresh Healthy Food</h3>
+                    <p>Fresh and Healthy Food kept and served at all times.</p>
+                </div>
+            </div>
+            <div class="delivery tab">
+                <div class="img2">
+                    <svg width="80" height="83" viewBox="0 0 80 83" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="80" height="83" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_77_141"
+                                    transform="matrix(0.0216146 0 0 0.0208333 -0.01875 0)" />
+                            </pattern>
+                            <image id="image0_77_141" width="48" height="48"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg>
+                </div>
+                <div class="headpara">
+                    <h3>Fast Home Delivery</h3>
+                    <p>Quisque velit nisi, pretium ut lacinia in df fasf </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Services Section Ends Here -->
+
+        <!-- Menu Section -->
+
+        <section class="menu-section">
+            <div class="menu-container">
+                <div class="menu-heads">
+                    <span class="h2-span">Our Menu</span>
+                    <h1>Explore Our Menu</h1>
+                </div>
+            </div>
+
+            <div class="menu-image">
+                <img src="./images/5948029.jpg" alt="menu.jpg">
+            </div>
+        </section>
+
+        <!-- Menu Ends Here -->
+    </div>
+
+
+    <!-- Footer Starts Here -->
+    <footer>
+        <div class="footer-contents">
+            <div class="footer-img">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <div class="mainlink">
+                <h3>Main Link</h3>
+                <ul>
+                    <li><a class="links" href="#">Order Tracking</a></li>
+                    <li><a class="links" href="#">New Order</a></li>
+                    <li><a class="links" href="#">Contact Us</a></li>
+                    <li><a class="links" href="#">News & Blogs</a></li>
+                </ul>
+            </div>
+            <div class="support">
+                <h3>Support</h3>
+                <ul>
+                    <li><a class="links" href="#">About Us</a></li>
+                    <li><a class="links" href="#">Privacy Policy</a></li>
+                    <li><a class="links" href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h3 class="space">Join Our Newsletter</h3>
+                <input type="email" name="email" id="email" placeholder="Enter your email address">
+                <h3 class="space">Follow Us</h3>
+                <svg width="10" height="21" viewBox="0 0 10 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_80_172)">
+                        <path
+                            d="M2.55277 21V11.1462H0V7.59835H2.55277V4.56802C2.55277 2.18677 4.0607 0 7.53529 0C8.9421 0 9.98237 0.137655 9.98237 0.137655L9.9004 3.45074C9.9004 3.45074 8.83949 3.4402 7.68178 3.4402C6.42879 3.4402 6.22804 4.02956 6.22804 5.00776V7.59835H10L9.83588 11.1462H6.22804V21H2.55277Z"
+                            fill="black" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_80_172">
+                            <rect width="10" height="21" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M23.643 2.93695C22.808 3.30695 21.911 3.55696 20.968 3.66996C21.941 3.08775 22.669 2.17142 23.016 1.09195C22.1019 1.63494 21.1014 2.01715 20.058 2.22196C19.3564 1.47282 18.4271 0.976281 17.4143 0.809429C16.4016 0.642577 15.3621 0.814746 14.4572 1.29921C13.5524 1.78367 12.8328 2.55332 12.4102 3.48866C11.9875 4.424 11.8855 5.4727 12.12 6.47195C10.2677 6.37895 8.45564 5.8975 6.80144 5.05886C5.14723 4.22022 3.68785 3.04312 2.51801 1.60396C2.11801 2.29396 1.88801 3.09396 1.88801 3.94596C1.88757 4.71295 2.07644 5.4682 2.43789 6.14469C2.79934 6.82118 3.32217 7.39799 3.96001 7.82396C3.22029 7.80042 2.49688 7.60054 1.85001 7.24095V7.30095C1.84994 8.3767 2.22204 9.41933 2.90319 10.252C3.58434 11.0846 4.53258 11.6559 5.58701 11.869C4.9008 12.0547 4.18135 12.082 3.48301 11.949C3.78051 12.8746 4.36001 13.684 5.14038 14.2639C5.92075 14.8438 6.86293 15.1651 7.83501 15.183C6.18484 16.4784 4.1469 17.181 2.04901 17.178C1.67739 17.1781 1.30609 17.1564 0.937012 17.113C3.06649 18.4821 5.54535 19.2088 8.07701 19.206C16.647 19.206 21.332 12.108 21.332 5.95195C21.332 5.75196 21.327 5.54995 21.318 5.34995C22.2293 4.69093 23.0159 3.87485 23.641 2.93995L23.643 2.93695Z"
+                        fill="black" />
+                </svg>
+                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M6.75886 0.069C7.98518 0.0125454 8.37618 0 11.5 0C14.6238 0 15.0148 0.0135909 16.2401 0.069C17.4654 0.124409 18.3017 0.319909 19.0335 0.603227C19.7999 0.892818 20.4951 1.3455 21.0701 1.93095C21.6555 2.50491 22.1072 3.19909 22.3957 3.96645C22.6801 4.69827 22.8745 5.53464 22.931 6.75782C22.9875 7.98623 23 8.37723 23 11.5C23 14.6238 22.9864 15.0148 22.931 16.2411C22.8756 17.4643 22.6801 18.3007 22.3957 19.0325C22.1072 19.8 21.6548 20.4953 21.0701 21.0701C20.4951 21.6555 19.7999 22.1072 19.0335 22.3957C18.3017 22.6801 17.4654 22.8745 16.2422 22.931C15.0148 22.9875 14.6238 23 11.5 23C8.37618 23 7.98518 22.9864 6.75886 22.931C5.53568 22.8756 4.69932 22.6801 3.9675 22.3957C3.20005 22.1071 2.50472 21.6548 1.92991 21.0701C1.34485 20.4958 0.892102 19.8008 0.603227 19.0335C0.319909 18.3017 0.125455 17.4654 0.069 16.2422C0.0125454 15.0138 0 14.6228 0 11.5C0 8.37618 0.0135909 7.98518 0.069 6.75991C0.124409 5.53464 0.319909 4.69827 0.603227 3.96645C0.892528 3.19918 1.34562 2.50419 1.93095 1.92991C2.50495 1.34498 3.19958 0.892236 3.96645 0.603227C4.69827 0.319909 5.53464 0.125455 6.75782 0.069H6.75886ZM16.147 2.139C14.9343 2.08359 14.5705 2.07209 11.5 2.07209C8.4295 2.07209 8.06568 2.08359 6.85295 2.139C5.73118 2.19023 5.12273 2.37736 4.71709 2.53523C4.18077 2.74432 3.79709 2.99209 3.39459 3.39459C3.01305 3.76578 2.71942 4.21766 2.53523 4.71709C2.37736 5.12273 2.19023 5.73118 2.139 6.85295C2.08359 8.06568 2.07209 8.4295 2.07209 11.5C2.07209 14.5705 2.08359 14.9343 2.139 16.147C2.19023 17.2688 2.37736 17.8773 2.53523 18.2829C2.71923 18.7816 3.013 19.2343 3.39459 19.6054C3.76573 19.987 4.21841 20.2808 4.71709 20.4648C5.12273 20.6226 5.73118 20.8098 6.85295 20.861C8.06568 20.9164 8.42845 20.9279 11.5 20.9279C14.5715 20.9279 14.9343 20.9164 16.147 20.861C17.2688 20.8098 17.8773 20.6226 18.2829 20.4648C18.8192 20.2557 19.2029 20.0079 19.6054 19.6054C19.987 19.2343 20.2808 18.7816 20.4648 18.2829C20.6226 17.8773 20.8098 17.2688 20.861 16.147C20.9164 14.9343 20.9279 14.5705 20.9279 11.5C20.9279 8.4295 20.9164 8.06568 20.861 6.85295C20.8098 5.73118 20.6226 5.12273 20.4648 4.71709C20.2557 4.18077 20.0079 3.79709 19.6054 3.39459C19.2342 3.01307 18.7823 2.71945 18.2829 2.53523C17.8773 2.37736 17.2688 2.19023 16.147 2.139ZM10.0311 15.0451C10.8515 15.3866 11.7649 15.4327 12.6154 15.1755C13.466 14.9184 14.2008 14.3739 14.6945 13.6351C15.1882 12.8963 15.4101 12.009 15.3222 11.1248C15.2344 10.2406 14.8423 9.41429 14.213 8.78704C13.8117 8.38609 13.3266 8.07908 12.7925 7.88811C12.2584 7.69714 11.6886 7.62697 11.1242 7.68264C10.5597 7.73832 10.0146 7.91846 9.52807 8.21009C9.04157 8.50172 8.62578 8.8976 8.31063 9.36921C7.99549 9.84082 7.78883 10.3764 7.70554 10.9375C7.62224 11.4986 7.66439 12.0711 7.82893 12.6139C7.99347 13.1568 8.27632 13.6564 8.65712 14.0768C9.03791 14.4971 9.50718 14.8279 10.0311 15.0451ZM7.32027 7.32027C7.86916 6.77138 8.52079 6.33598 9.23795 6.03892C9.95511 5.74187 10.7238 5.58897 11.5 5.58897C12.2762 5.58897 13.0449 5.74187 13.7621 6.03892C14.4792 6.33598 15.1308 6.77138 15.6797 7.32027C16.2286 7.86916 16.664 8.52079 16.9611 9.23795C17.2581 9.95511 17.411 10.7238 17.411 11.5C17.411 12.2762 17.2581 13.0449 16.9611 13.7621C16.664 14.4792 16.2286 15.1308 15.6797 15.6797C14.5712 16.7883 13.0677 17.411 11.5 17.411C9.9323 17.411 8.4288 16.7883 7.32027 15.6797C6.21174 14.5712 5.58897 13.0677 5.58897 11.5C5.58897 9.9323 6.21174 8.4288 7.32027 7.32027ZM18.722 6.46927C18.858 6.34096 18.9669 6.18667 19.0422 6.01552C19.1175 5.84437 19.1578 5.65985 19.1605 5.47288C19.1632 5.28591 19.1284 5.1003 19.0581 4.92703C18.9878 4.75376 18.8835 4.59635 18.7512 4.46413C18.619 4.33191 18.4616 4.22756 18.2883 4.15727C18.1151 4.08697 17.9294 4.05216 17.7425 4.05488C17.5555 4.05761 17.371 4.09782 17.1998 4.17314C17.0287 4.24845 16.8744 4.35735 16.7461 4.49336C16.4966 4.75789 16.3599 5.10926 16.3652 5.47288C16.3705 5.8365 16.5173 6.18374 16.7745 6.44088C17.0316 6.69803 17.3789 6.84483 17.7425 6.85013C18.1061 6.85543 18.4575 6.71881 18.722 6.46927Z"
+                        fill="black" />
+                </svg>
+                <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M23.5 3.50695C23.3641 3.02219 23.0994 2.5833 22.734 2.23695C22.3583 1.87996 21.8978 1.62459 21.396 1.49495C19.518 0.999954 11.994 0.999954 11.994 0.999954C8.85734 0.964267 5.72144 1.12123 2.60401 1.46995C2.1022 1.60917 1.64257 1.87024 1.26601 2.22995C0.896007 2.58595 0.628007 3.02495 0.488007 3.50595C0.1517 5.3177 -0.0117011 7.1573 6.83166e-06 8.99995C-0.0119932 10.841 0.151007 12.68 0.488007 14.494C0.625007 14.973 0.892007 15.41 1.26301 15.763C1.63401 16.116 2.09601 16.371 2.60401 16.506C4.50701 17 11.994 17 11.994 17C15.1347 17.0357 18.2746 16.8787 21.396 16.53C21.8978 16.4003 22.3583 16.145 22.734 15.788C23.104 15.435 23.367 14.996 23.499 14.518C23.8441 12.7069 24.0119 10.8665 24 9.02295C24.026 7.17156 23.8584 5.32252 23.5 3.50595V3.50695ZM9.60201 12.424V5.57695L15.862 9.00095L9.60201 12.424Z"
+                        fill="black" />
+                </svg>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Ends Here -->
+</body>
+
+</html>

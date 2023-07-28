@@ -1,0 +1,165 @@
+/* Common styles for all screen sizes */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+/* Mobile Responsive Styles */
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    /* Adjusting the font size and spacing for smaller screens */
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* Navigation styles for smaller screens */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #f2f2f2;
+        width: 110%;
+    }
+
+
+    .logo img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .hamburger-icon {
+        font-size: 24px;
+        margin-left: 89vw;
+    }
+
+    /* Adjusting the layout of the main content */
+    .content-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image1 img {
+        width: 100%;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    /* Styling the services section for smaller screens */
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* Adjusting the menu section layout */
+    .menu-section .menu-heads {
+        text-align: center;
+    }
+
+    .menu-image img {
+        width: 100%;
+        height: 101vh;
+    }
+
+    /* Styling the footer for smaller screens */
+    footer {
+        padding: 20px;
+        text-align: center;
+        width: 106%;
+
+    }
+
+    .footer-img {
+        width: 300px;
+    }
+
+    .footer-img img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .footer-contents {
+        flex-direction: column;
+    }
+
+    #email {
+        width: 37vw;
+    }
+
+    .mainlink,
+    .support,
+    .newsletter {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile Responsive Styles for max-width: 425px */
+@media only screen and (max-width: 425px) {
+    .logo img {
+        width: 100%;
+    }
+
+    .container {
+        height: 213vh;
+    }
+
+    .hamburger-icon {
+        font-size: 24px;
+    }
+
+    .image1 {
+        width: 90%;
+    }
+
+    .main-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-content p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .menu-heads h1 {
+        font-size: 2rem;
+    }
+
+    .menu-image img {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .h2-span {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        width: 110%;
+        margin-top: 20px;
+    }
+}
