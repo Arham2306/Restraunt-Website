@@ -127,6 +127,7 @@
 
     .hamburger-icon {
         font-size: 24px;
+        margin-left: 72vw;
     }
 
     .image1 {
@@ -149,9 +150,13 @@
         font-size: 2rem;
     }
 
+    .menu-image {
+        width: 110%;
+    }
+
     .menu-image img {
         width: 100%;
-        height: 60vh;
+        height: 63vh;
     }
 
     .h2-span {
